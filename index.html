@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz 02 - Style Playground</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
+
+  <div class="card hero">
+    <p class="label">Quiz 02</p>
+    <h1>Small HTML + CSS Playgroun</h1>
+    <p>A nolayout demo with stronger typography, color, and component styling.</p>
+  </div>
+
+  <div class="card">
+    <h2>Text Styles</h2>
+    <p class="body-para">
+      This paragraph shows the base body type. Here is an
+      <a href="#">inline link example</a> and a little <span class="highlight">highlight</span>.
+    </p>
+    <div class="quote-box">
+      Good visual hierarchy can make simple HTML feel intentional.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Lists + Badges</h2>
+    <ul>
+      <li>Readable spacing and line height</li>
+      <li>Clear color contrast</li>
+      <li>Labels like <span class="badge">new</span> <span class="badge">simple</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Buttons</h2>
+    <div class="btn-group">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Form Sample</h2>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="tedssS" />
+    </div>
+    <div class="form-group">
+      <label for="topic">Favorite Topic</label>
+      <select id="topic">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>Accessibility</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="note">Note</label>
+      <textarea id="note" placeholder="Write jandaba..."></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Table</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Status</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Typography</td><td>Done</td><td>Base</td></tr>
+          <tr><td>Color</td><td>Done</td><td>Base</td></tr>
+          <tr><td>Components</td><td>In Progress</td><td>Light</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Details</h2>
+    <input type="checkbox" id="toggle" class="toggle-checkbox" />
+    <label for="toggle" class="details-title">
+      <span class="det-arrow">▶</span>
+      <span class="det-arrow-open">▼</span>
+      Why this works without layout tools
+    </label>
+    <p class="details-body">
+      Normal document flow can still look polished when spacing, borders,
+      font scale, and color are treated consistently.
+    </p>
+  </div>
+
+  <div class="footer-card">Built for class quiz practice.</div>
+
 </body>
 </html>
+
+
